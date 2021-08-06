@@ -1,0 +1,30 @@
+.mx {
+    margin-left: 1rem;
+}
+
+.list-item-comp {
+    position: relative;
+    margin-bottom: 1rem;
+    padding: 0 8rem;
+}
+
+.list-item-comp.row {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.list-item-comp .list-item-data i {
+    position: absolute;
+    /* right: 75px; */
+    right: 8rem;
+    cursor: pointer;
+    transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+}
+
+.list-item-comp .list-item-data i:hover {
+    color: #D50000;
+}
